@@ -49,16 +49,16 @@
           <legend class="visually-hidden">Данные кота</legend>
           <ul class="cat-info__list">
             <li class="cat-info__item">
-              <label for="cat-info__name">Имя:<sup>*</sup></label>
-              <input type="text" name="cat-name" placeholder="Барсик" id="cat-info__name">
+              <label class="cat-info__label" for="cat-info__name">Имя:<sup>*</sup></label>
+              <input class="cat-info__input" type="text" name="cat-name" placeholder="Барсик" id="cat-info__name">
             </li>
             <li class="cat-info__item">
-              <label for="cat-info__weight">Вес (кг):<sup>*</sup></label>
-              <input type="number" name="cat-weight" min="1" max="30" step="1" value="7" id="cat-info__weight">
+              <label class="cat-info__label" for="cat-info__weight">Вес (кг):<sup>*</sup></label>
+              <input class="cat-info__input" type="number" name="cat-weight" min="1" max="30" step="1" value="7" id="cat-info__weight">
             </li>
             <li class="cat-info__item">
-              <label for="cat-info__age">Возраст (лет):</label>
-              <input type="number" name="cat-age" min="1" max="30" step="1" value="7" id="cat-info__age">
+              <label class="cat-info__label" for="cat-info__age">Возраст (лет):</label>
+              <input class="cat-info__input" type="number" name="cat-age" min="1" max="30" step="1" value="7" id="cat-info__age">
             </li>
           </ul>
         </fieldset>
@@ -83,19 +83,19 @@
           <legend class="owner-contacts__title">Контактные данные (владельца кота)</legend>
           <ul class="owner-contacts__list">
             <li class="owner-contacts__item">
-              <label for="owner-contacts__email">E-mail:<sub>*</sub></label>
-              <input type="email" name="email" placeholder="kuklachev@gmail.com" id="owner-contacts__email">
+              <label class="owner-contacts__label" for="owner-contacts__email">E-mail:<sub>*</sub></label>
+              <input class="owner-contacts__input" type="email" name="email" placeholder="kuklachev@gmail.com" id="owner-contacts__email">
             </li>
             <li class="owner-contacts__item">
-              <label for="owner-contact__tel">Телефон:<sub>*</sub></label>
-              <input type="tel" name="tel" placeholder="8 (960) 900-60-90" id="owner-contact__tel">
+              <label class="owner-contacts__label" for="owner-contact__tel">Телефон:<sub>*</sub></label>
+              <input class="owner-contacts__input" type="tel" name="tel" placeholder="8 (960) 900-60-90" id="owner-contact__tel">
             </li>
           </ul>
         </fieldset>
         <fieldset class="selection__block comment">
           <legend class="comment__title">Комментарий</legend>
           <p class="comment__desc">
-            <textarea name="comment" id="comment" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
+            <textarea class="comment__textarea" name="comment" id="comment" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
             <label for="comment">Комментарий</label>
           </p>
         </fieldset>
@@ -104,19 +104,19 @@
           <ul class="addition__list">
             <li class="addition__item">
               <input type="checkbox" name="sugar" id="add-sugar" checked>
-              <label for="add-sugar">Сахарозаменитель</label>
+              <label class="addition__label" for="add-sugar">Сахарозаменитель</label>
             </li>
             <li class="addition__item">
               <input type="checkbox" name="water" id="add-water">
-              <label for="add-water">Питьевая вода</label>
+              <label class="addition__label" for="add-water">Питьевая вода</label>
             </li>
             <li class="addition__item">
               <input type="checkbox" name="milk" id="add-milk">
-              <label for="add-milk">Молоко</label>
+              <label class="addition__label" for="add-milk">Молоко</label>
             </li>
             <li class="addition__item">
               <input type="checkbox" name="vitamins" id="add-vitamins">
-              <label for="add-vitamins">Витамины</label>
+              <label class="addition__label" for="add-vitamins">Витамины</label>
             </li>
           </ul>
         </fieldset>
